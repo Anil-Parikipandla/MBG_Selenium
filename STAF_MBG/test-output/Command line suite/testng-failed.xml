@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.epam.scenarios.NewBusiness">
+        <methods>
+          <include name="stopTest"/>
+          <include name="loginToMBGroup"/>
+          <include name="ApplicationPage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.epam.scenarios.NewBusiness -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
